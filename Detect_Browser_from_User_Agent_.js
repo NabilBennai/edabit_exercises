@@ -17,4 +17,12 @@ All test case user agents are valid.
 
 */
 
-function detectBrowser(userAgent) {}
+function detectBrowser(userAgent) {
+  if (userAgent.match(/Chrome/)) {
+    return "Google Chrome";
+  } else if (userAgent.match(/Firefox/)) {
+    return "Mozilla Firefox";
+  } else {
+    return "Internet Explorer";
+  }
+}
