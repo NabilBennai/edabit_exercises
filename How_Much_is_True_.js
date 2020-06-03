@@ -19,6 +19,6 @@ function countTrue(arr) {
   /*
     Maps the Array arr to the function x => Number(x) which returns an array with binary values (0 or 1)
     To count the number of true's in the initial array, one should just calculate the sum of the obtained array
-    */
+*/
   return arr.map((x) => Number(x)).reduce((a, b) => a + b, 0);
 }
