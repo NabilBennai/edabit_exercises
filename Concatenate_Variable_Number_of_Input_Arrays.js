@@ -18,5 +18,3 @@ Arrays should be concatenated in order of the arguments.
 function concat(...args) {
   return args.reduce((l, s) => l.concat(s), []);
 }
-
-console.log(concat([1, 2, 3], [4, 5], [6, 7]));

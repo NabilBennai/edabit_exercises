@@ -22,5 +22,3 @@ function repetition(txt, n) {
     return txt + repetition(txt, n - 1);
   }
 }
-
-console.log(repetition("coucou", 2));
